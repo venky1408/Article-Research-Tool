@@ -1,0 +1,63 @@
+Evolut Low-Risk Trial 5-Year Result: We're Halfway There.
+Journal of the American College of Cardiology. 2025-04-22;85(15):1533-1535
+doi: 10.1016/j.jacc.2025.03.428
+
+Is it Time to Focus on Patients Rather Than Procedures to Improve Outcomes After TAVR?
+JACC. Cardiovascular interventions. 2025-04-28;18(8):1025-1027
+doi: 10.1016/j.jcin.2025.01.419
+
+Cerebral Protection Devices in Case of Left Sided Intracardiac Thrombus: A Multicentre Experience From the Cath Lab and EP Lab.
+Catheterization and cardiovascular interventions : official journal of the Society for Cardiac Angiography & Interventions. 2025-05-12;105(6):1516-1522
+doi: 10.1002/ccd.31487
+
+A Torn Leaflet: An Unusual Complication of a Degenerated Transcatheter Aortic Valve Prosthesis.
+JACC. Cardiovascular interventions. 2025-04-28;18(8):1062-1064
+doi: 10.1016/j.jcin.2024.11.024
+
+Bi-atrial strain beats left atrial strain as risk marker: Shown in TAVI patients.
+European heart journal. Cardiovascular Imaging. 2025-05-12;
+doi: 10.1093/ehjci/jeaf146
+
+The Road to Quality Is Paved With Data: Insights From the Australian TAVI Registry.
+Heart, lung & circulation. 2025-05-12;34(5):416-418
+doi: 10.1016/j.hlc.2025.04.078
+
+[Accessibility to TAVI in a center without cardiac surgery : a Corsican example].
+Annales de cardiologie et d'angeiologie. 2025-05-06;74(3):101898
+doi: 10.1016/j.ancard.2025.101898
+
+Transferring Structured Medical Data from Hospital to Rehabilitation Facilities Using HL7 FHIR and openEHR.
+Studies in health technology and informatics. 2025-05-02;325:48-53
+doi: 10.3233/SHTI250217
+
+Further insights on subclinical leaflet thrombosis following valve-in-valve TAVI.
+EuroIntervention : journal of EuroPCR in collaboration with the Working Group on Interventional Cardiology of the European Society of Cardiology. 2025-05-05;21(9):e447-e449
+doi: 10.4244/EIJ-E-25-00013
+
+Win ratio analysis of the LANDMARK trial.
+American heart journal. 2025-04-30;
+doi: 10.1016/j.ahj.2025.04.024
+
+Flow Reserve Does Not Predict Long-Term Outcomes After Transaortic Valve Implantation in Patients With Preserved Left Ventricular Ejection Fraction.
+Journal of clinical ultrasound : JCU. 2025-04-28;
+doi: 10.1002/jcu.24034
+
+Oral Anticoagulation during TAVI. Reply.
+The New England journal of medicine. 2025-04-24;392(16):1662-1663
+doi: 10.1056/NEJMc2502740
+
+Oral Anticoagulation during TAVI.
+The New England journal of medicine. 2025-04-24;392(16):1662
+doi: 10.1056/NEJMc2502740
+
+Could the age threshold for TAVI be relaxed to below 65 years? Pros and cons.
+EuroIntervention : journal of EuroPCR in collaboration with the Working Group on Interventional Cardiology of the European Society of Cardiology. 2025-04-21;21(8):e387-e389
+doi: 10.4244/EIJ-E-24-00071
+
+TAVI for asymptomatic aortic stenosis? More compelling outcome data are needed.
+Heart (British Cardiac Society). 2025-04-15;
+doi: 10.1136/heartjnl-2025-325767
+
+From Complexity to Clarity: Phenotypic Clustering of TMVR ineligible Patients.
+European heart journal. Cardiovascular Imaging. 2025-05-06;
+doi: 10.1093/ehjci/jeaf142

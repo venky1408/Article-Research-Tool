@@ -1,0 +1,188 @@
+{% extends "base.html" %}
+{% block content %}
+
+<!-- Nav Pills -->
+<div class="flex flex-wrap gap-2 mb-6">
+  {% set pills = [
+    ('pending','Pending'),
+    ('free','Free Articles'),
+    ('paid','Paid Articles & External Site Free Articles'),
+    ('approved','Approved'),
+    ('rejected','Rejected')
+  ] %}
+  {% for code,label in pills %}
+    <a href="/?filter={{ code }}&page=1"
+       class="px-4 py-2 rounded text-sm font-semibold transition
+              {% if filter_category==code %}
+                bg-red-600 text-white
+              {% else %}
+                bg-white text-black hover:bg-red-100
+              {% endif %}">
+      {{ label }} ({{ counts[code] }})
+    </a>
+  {% endfor %}
+</div>
+
+<!-- Tag Filter -->
+<form class="mb-6 flex gap-2" method="get">
+  <input type="hidden" name="filter" value="{{ filter_category }}">
+  <input
+    name="tag"
+    value="{{ tag_filter }}"
+    placeholder="Filter by approved tag"
+    class="border px-3 py-2 rounded w-60 shadow-sm focus:ring"
+  >
+  <button class="bg-black text-white px-4 py-2 rounded flex items-center">
+    <i class="fas fa-filter mr-2"></i>Filter
+  </button>
+</form>
+
+<!-- Articles -->
+<div id="articles_container">
+  {% for art in articles %}
+    <div
+      id="article_{{ art._id }}"
+      class="article-card bg-white rounded-xl shadow-md p-6 mb-6"
+    >
+      <!-- Title & Icon -->
+      <h2 class="flex items-center text-lg font-bold mb-2 text-black">
+        {{ art.updated_title or art.title }}
+        {% if art.access == 'Free' %}
+          <i class="fas fa-file-pdf text-red-500 ml-2"></i>
+        {% else %}
+          <i class="fas fa-external-link-alt text-blue-500 ml-2"></i>
+        {% endif %}
+      </h2>
+
+      <!-- Metadata -->
+      <p class="mb-1"><strong>PubMed ID:</strong> {{ art.pubmed_id }}</p>
+      <p class="mb-1"><strong>Original Title:</strong> {{ art.title }}</p>
+      <details class="mb-2">
+        <summary>
+          <strong>Authors:</strong> {{ art.authors[0] }}{% if art.authors|length>1 %}, …{% endif %}
+        </summary>
+        <p class="mt-1">{{ art.authors | join(', ') }}</p>
+      </details>
+      <p class="mb-1"><strong>Journal:</strong> {{ art.journal }}</p>
+      <p class="mb-1"><strong>Publication Date:</strong> {{ art.publication_date }}</p>
+      <p class="mb-4"><strong>DOI:</strong> {{ art.doi }}</p>
+
+      <!-- Abstract -->
+      <details class="mb-4">
+        <summary class="cursor-pointer text-blue-600">▶ Toggle Abstract</summary>
+        <p class="mt-2 text-sm">{{ art.abstract }}</p>
+      </details>
+
+      <!-- PDF / PubMed Link -->
+      {% if art.access == 'Free' and art.pdf_name %}
+        <a
+          href="{{ url_for('serve_pdf', filename=art.pdf_name) }}"
+          class="inline-flex items-center text-blue-600 hover:underline mb-4"
+        >
+          <i class="fas fa-file-download mr-1"></i>Download PDF
+        </a>
+      {% else %}
+        <a
+          href="{{ art.fulltext_link }}"
+          target="_blank"
+          class="inline-flex items-center text-blue-600 hover:underline mb-4"
+        >
+          <i class="fas fa-atlas mr-1"></i>Visit PubMed
+        </a>
+      {% endif %}
+
+      <!-- Tags -->
+      <p class="font-semibold mb-1">Tags:</p>
+      <div class="flex flex-wrap gap-2 mb-4">
+        {% for tag in art.suggested_tags %}
+          {% set ok = tag in art.approved_tags %}
+          <button
+            hx-post="/approve_tag/{{ art._id }}/{{ tag }}"
+            hx-swap="none"
+            class="tag-chip {% if ok %}approved{% endif %}"
+          >
+            {{ tag }}
+            <i class="fas fa-check ml-1 {% if not ok %}opacity-0{% endif %}"></i>
+          </button>
+        {% endfor %}
+      </div>
+      <form hx-post="/add_tag/{{ art._id }}" hx-swap="none" class="flex gap-2 mb-6">
+        <input
+          name="tag"
+          placeholder="Add tag"
+          class="border rounded px-2 py-1 text-sm"
+        >
+        <button class="bg-blue-500 text-white px-3 py-1 rounded inline-flex items-center">
+          <i class="fas fa-plus mr-1"></i>Add
+        </button>
+      </form>
+
+      <!-- Approve / Reject / Undo -->
+      <div class="flex gap-4">
+        {% if filter_category in ['pending','free','paid'] %}
+          <button
+            hx-post="/approve/{{ art._id }}"
+            hx-target="closest .article-card"
+            hx-swap="delete"
+            class="bg-green-600 text-white px-4 py-2 rounded inline-flex items-center"
+          >
+            <i class="fas fa-thumbs-up mr-1"></i>Approve
+          </button>
+          <button
+            hx-post="/reject/{{ art._id }}"
+            hx-target="closest .article-card"
+            hx-swap="delete"
+            class="bg-red-600 text-white px-4 py-2 rounded inline-flex items-center"
+          >
+            <i class="fas fa-thumbs-down mr-1"></i>Reject
+          </button>
+        {% else %}
+          <button
+            hx-post="/undo/{{ art._id }}"
+            hx-target="closest .article-card"
+            hx-swap="delete"
+            class="bg-yellow-500 text-white px-4 py-2 rounded inline-flex items-center"
+          >
+            <i class="fas fa-undo mr-1"></i>Undo
+          </button>
+          {% if art.status in ['approved', 'rejected'] and not art.get('moved') %}
+            <form action="{{ url_for('move_to_folder', article_id=art['_id']) }}" method="post" style="display:inline;" onsubmit="return confirm('Are you sure you want to move this PDF to the {{ art.status }} folder?');">
+              <button type="submit" class="bg-gray-800 text-white px-4 py-2 rounded inline-flex items-center">
+                <i class="fas fa-folder-open mr-1"></i>Move to Folder
+              </button>
+            </form>
+          {% elif art.get('moved') %}
+            <button class="bg-gray-400 text-white px-4 py-2 rounded inline-flex items-center cursor-not-allowed" disabled>
+              <i class="fas fa-check-circle mr-1"></i>Already Moved
+            </button>
+          {% endif %}
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+<!-- Pagination -->
+<div class="flex justify-between items-center mt-6">
+  {% if page>1 %}
+    <a
+      href="/?filter={{filter_category}}&tag={{tag_filter}}&page={{page-1}}"
+      class="px-4 py-2 bg-white text-black rounded hover:bg-red-100"
+    >← Previous</a>
+  {% else %}
+    <span></span>
+  {% endif %}
+
+  <span>Page {{page}} of {{total_pages}}</span>
+
+  {% if page<total_pages %}
+    <a
+      href="/?filter={{filter_category}}&tag={{tag_filter}}&page={{page+1}}"
+      class="px-4 py-2 bg-white text-black rounded hover:bg-red-100"
+    >Next →</a>
+  {% else %}
+    <span></span>
+  {% endif %}
+</div>
+
+{% endblock %}

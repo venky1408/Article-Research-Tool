@@ -1,0 +1,199 @@
+Explantation of Transcatheter Aortic Bioprostheses in a Very High-Risk Population.
+The Annals of thoracic surgery. 2025-05-09;
+doi: 10.1016/j.athoracsur.2025.04.025
+
+Outcomes of transcatheter aortic valve replacement in bicuspid versus tricuspid aortic stenosis with severe calcification.
+Heart (British Cardiac Society). 2025-05-10;
+doi: 10.1136/heartjnl-2024-324697
+
+Incidence, predictors and clinical impact of upper gastrointestinal bleeding after transcatheter aortic valve replacement.
+Heart (British Cardiac Society). 2025-05-10;
+doi: 10.1136/heartjnl-2024-325359
+
+Comparative Prognostic Value of Risk Factors for Predicting Pacemaker Implantation After Transcatheter Aortic Valve Replacement: A Systematic Review and Network Meta-analysis.
+The American journal of cardiology. 2025-05-08;
+doi: 10.1016/j.amjcard.2025.05.009
+
+Impact of Annulus Size on Bioprosthetic Valve Failure after Self-Expanding Transcatheter Heart Valves Replacement.
+The American journal of cardiology. 2025-05-08;
+doi: 10.1016/j.amjcard.2025.05.008
+
+Transcatheter Aortic Valve Replacement With Intra-Annular Self-Expanding or Balloon-Expandable Valves: The Multicenter International NAVULTRA Registry.
+JACC. Cardiovascular interventions. 2025-05-05;
+doi: 10.1016/j.jcin.2025.03.015
+
+Rotational Atherectomy of Aorto-Ostial Calcification and Retained Native Leaflet to Facilitate Valve-in-Valve TAVI.
+JACC. Case reports. 2025-04-17;:103949
+doi: 10.1016/j.jaccas.2025.103949
+
+Immediate transcatheter aortic valve replacement versus temporizing balloon aortic valvuloplasty in severe aortic stenosis: A systematic review and meta-analysis immediate TAVR vs. temporizing BAV.
+Cardiovascular revascularization medicine : including molecular interventions. 2025-04-29;
+doi: 10.1016/j.carrev.2025.04.019
+
+Orthotopic Left Main Chimney Stenting to Prevent Stent Compression After Transcatheter Aortic Valve Replacement.
+JACC. Case reports. 2025-05-07;30(9):103286
+doi: 10.1016/j.jaccas.2025.103286
+
+TAVR-in-TAVR in Surgical Valve for Recurrence of Failed Bioprosthesis.
+JACC. Case reports. 2025-05-07;30(9):103278
+doi: 10.1016/j.jaccas.2025.103278
+
+Use of Shockwave Intravascular Lithotripsy to Facilitate Transcarotid Access for Transcatheter Aortic Valve Replacement.
+JACC. Case reports. 2025-05-07;30(9):103236
+doi: 10.1016/j.jaccas.2025.103236
+
+Balloon-Expandable versus Self-Expanding Valves in Patients With Prior Surgical Mitral Valve Replacement Undergoing Transcatheter Aortic Valve Replacement.
+The Canadian journal of cardiology. 2025-05-07;
+doi: 10.1016/j.cjca.2025.04.026
+
+Bicuspid aortic valve disease: advancements and challenges of transcatheter aortic valve implantation.
+European heart journal. 2025-05-09;
+doi: 10.1093/eurheartj/ehaf307
+
+Characterization of Aortic Valve Stenosis by CT Angiography in a Diverse US Cohort.
+Circulation. Cardiovascular imaging. 2025-05-09;:e017858
+doi: 10.1161/CIRCIMAGING.124.017858
+
+Transcatheter Valve-in-Valve and "Unicorn" Leaflet Laceration Resulting in Late Left Main Occlusion.
+JACC. Cardiovascular interventions. 2025-04-22;
+doi: 10.1016/j.jcin.2025.03.022
+
+Recurrent Stuck Leaflets of SAPIEN Ultra Resilia.
+JACC. Cardiovascular interventions. 2025-04-23;
+doi: 10.1016/j.jcin.2025.02.021
+
+Prevalence and clinical outcomes of permanent conduction disturbances after Transcatheter aortic valve replacement.
+Journal of cardiology. 2025-05-05;
+doi: 10.1016/j.jjcc.2025.04.013
+
+Semiquantitative metrics of coronary artery disease burden: Intra-individual comparison between ultrahigh-resolution photon-counting detector CT and energy-integrating detector CT.
+Journal of cardiovascular computed tomography. 2025-05-05;
+doi: 10.1016/j.jcct.2025.04.012
+
+Outcomes of Surgical versus Transcatheter Aortic Valve Replacement in Patients with Low-Flow Low-Gradient Aortic Stenosis.
+The Journal of thoracic and cardiovascular surgery. 2025-04-23;
+doi: 10.1016/j.jtcvs.2025.04.034
+
+Prognostic implications and predictive factors of subclinical leaflet thrombosis following valve-in-valve transcatheter aortic valve implantation.
+EuroIntervention : journal of EuroPCR in collaboration with the Working Group on Interventional Cardiology of the European Society of Cardiology. 2025-05-05;21(9):e482-e492
+doi: 10.4244/EIJ-D-24-00711
+
+Thrombus characterisation and evolution of hypoattenuating leaflet thickening after transcatheter aortic valve implantation.
+EuroIntervention : journal of EuroPCR in collaboration with the Working Group on Interventional Cardiology of the European Society of Cardiology. 2025-05-05;21(9):e471-e481
+doi: 10.4244/EIJ-D-24-01043
+
+Machine Learning Methods to Predicting Transvalvular Gradient Waveform Post-Transcatheter Aortic Valve Replacement Using Pre-procedural Echocardiogram.
+The Journal of thoracic and cardiovascular surgery. 2025-05-02;
+doi: 10.1016/j.jtcvs.2025.04.044
+
+Perioperative management and outcomes of surgical pulmonary valve replacement following tetralogy of fallot repair: A retrospective study.
+International journal of surgery case reports. 2025-05-03;131:111406
+doi: 10.1016/j.ijscr.2025.111406
+
+Impact of an improvement in the early left ventricular ejection fraction on the 1-year clinical outcomes and its predictors after transcatheter aortic valve replacement.
+Surgery today. 2025-05-03;
+doi: 10.1007/s00595-025-03036-8
+
+Multimodal Visualization and Explainable Machine Learning-Driven Markers Enable Early Identification and Prognosis Prediction for Symptomatic Aortic Stenosis and Heart Failure With Preserved Ejection Fraction After Transcatheter Aortic Valve Replacement: Multicenter Cohort Study.
+Journal of medical Internet research. 2025-05-01;27:e70587
+doi: 10.2196/70587
+
+Clinical Impact of Midframe Underexpansion Following TAVR Using a Self-Expanding Transcatheter Heart Valve.
+JACC. Cardiovascular interventions. 2025-04-28;18(8):1028-1041
+doi: 10.1016/j.jcin.2025.02.013
+
+A wide complex tachycardia post-transcatheter aortic valve replacement.
+Journal of electrocardiology. 2025-04-23;91:153940
+doi: 10.1016/j.jelectrocard.2025.153940
+
+Management of difficult coronary anatomy during transcatheter aortic valve implantation: what are the key issues?
+Current opinion in cardiology. 2025-04-25;
+doi: 10.1097/HCO.0000000000001229
+
+AI-based prediction of left bundle branch block risk post-TAVI using pre-implantation clinical parameters.
+Future cardiology. 2025-04-29;:1-6
+doi: 10.1080/14796678.2025.2498866
+
+Transcatheter aortic valve implantation versus surgery in low-risk patients: in-hospital and mid-term outcomes.
+Interdisciplinary cardiovascular and thoracic surgery. 2025-04-28;
+doi: 10.1093/icvts/ivaf103
+
+Vascular Closure Devices for Large Bore Femoral Access After Transfemoral Transcatheter Aortic Valve Replacement: A Network Meta-Analysis.
+Catheterization and cardiovascular interventions : official journal of the Society for Cardiac Angiography & Interventions. 2025-04-27;
+doi: 10.1002/ccd.31565
+
+Feasibility of standby ECMO with preset femoral vascular sheaths for high-risk transcatheter aortic valve replacement.
+Perfusion. 2025-05-12;40(4):893-897
+doi: 10.1177/02676591241263285
+
+Comparative Effectiveness and Safety of Self-Expanding Versus Balloon-Expandable Transcatheter Aortic Valve Replacement: A Systematic Review and Meta-Analysis.
+The American journal of the medical sciences. 2025-04-25;
+doi: 10.1016/j.amjms.2025.04.010
+
+Temporal Trends in Transcatheter Aortic Valve Replacement Outcomes in Patients With Low-Flow, Low-Gradient Aortic Stenosis: Insights From the TOPAS-TAVI Registry.
+The Canadian journal of cardiology. 2025-04-24;
+doi: 10.1016/j.cjca.2025.04.015
+
+The Impact of Concomitant Mitral Regurgitation on Echocardiography Parameters After TransCatheter Aortic Valve Replacement: A Systematic Review and Meta-Analysis.
+Catheterization and cardiovascular interventions : official journal of the Society for Cardiac Angiography & Interventions. 2025-04-24;
+doi: 10.1002/ccd.31555
+
+[In patients with asymptomatic severe aortic stenosis, does a transcatheter aortic-valve replacement improve prognosis, and is it safe?].
+La Revue de medecine interne. 2025-04-22;
+doi: 10.1016/j.revmed.2025.03.428
+
+Preprocedural CT angiography and machine learning for mortality prediction after transcatheter aortic valve replacement.
+Progress in cardiovascular diseases. 2025-04-21;
+doi: 10.1016/j.pcad.2025.04.007
+
+Utilization and Outcomes of Antiplatelet Therapy Following Transcatheter Aortic Valve Replacement (TAVR).
+Journal of the American Heart Association. 2025-05-06;14(9):e038297
+doi: 10.1161/JAHA.124.038297
+
+Evaluation of Tissue Annular Motion Displacement in Patients With Severe Aortic Stenosis With Normal Ejection Fraction.
+Journal of clinical ultrasound : JCU. 2025-04-23;
+doi: 10.1002/jcu.24032
+
+SINGLE PERCLOSE PLUS PLUG BASED DEVICE VERSUS DOUBLE PERCLOSE FOR PERCUTANEOUS LARGE BORE ARTERIAL ACCESS: A SYSTEMATIC REVIEW AND META ANALYSIS.
+Annals of vascular surgery. 2025-04-20;
+doi: 10.1016/j.avsg.2025.04.107
+
+Perioperative Outcomes in Patients Undergoing Transcatheter Aortic Valve Replacement with Concomitant Mitral Regurgitation: A Meta-Analysis.
+Cardiology in review. 2025-04-22;
+doi: 10.1097/CRD.0000000000000919
+
+Sex-Related Differences in Survival and Safety Outcomes After Transcatheter Aortic Valve Replacement: A Meta-Analysis of Reconstructed Time-to-Event Data.
+European heart journal. Quality of care & clinical outcomes. 2025-04-22;
+doi: 10.1093/ehjqcco/qcaf022
+
+Impact of Calcified Raphe on TAVR in Bicuspid Patients: Predicting Redo-TAVR Feasibility and Virtual Planning Implications.
+Circulation. Cardiovascular interventions. 2025-04-22;:e014802
+doi: 10.1161/CIRCINTERVENTIONS.124.014802
+
+Outcomes of complex, high-risk percutaneous coronary intervention in patients with severe aortic stenosis: the ASCoP registry.
+EuroIntervention : journal of EuroPCR in collaboration with the Working Group on Interventional Cardiology of the European Society of Cardiology. 2025-04-21;21(8):e426-e436
+doi: 10.4244/EIJ-D-24-00933
+
+Management of complications after valvular interventions.
+EuroIntervention : journal of EuroPCR in collaboration with the Working Group on Interventional Cardiology of the European Society of Cardiology. 2025-04-21;21(8):e390-e410
+doi: 10.4244/EIJ-D-24-00066
+
+Prognostic value of invasive versus echocardiography-derived aortic gradient in patients undergoing TAVI.
+EuroIntervention : journal of EuroPCR in collaboration with the Working Group on Interventional Cardiology of the European Society of Cardiology. 2025-04-21;21(8):e411-e425
+doi: 10.4244/EIJ-D-24-00341
+
+The randomized controlled trial to compare temporary permanent pacemaker vs temporary pacemaker in patients with conduction block after transcatheter aortic valve replacement: Rationale and design of the RECOVER trial.
+American heart journal. 2025-04-19;287:41-49
+doi: 10.1016/j.ahj.2025.04.017
+
+[Diagnostic and therapeutic advances of valvular heart disease in China 2024].
+Zhonghua xin xue guan bing za zhi. 2025-04-24;53(4):418-424
+doi: 10.3760/cma.j.cn112148-20250112-00033
+
+[Transcatheter aortic valve replacement for aortic valve regurgitation after left ventricular assist device implantation: a case report].
+Zhonghua xin xue guan bing za zhi. 2025-04-24;53(4):405-408
+doi: 10.3760/cma.j.cn112148-20240531-00299
+
+Management of TAVR in asymptomatic or minimally symptomatic patients: Insights from resting angiographic microvascular resistance.
+International journal of cardiology. 2025-08-01;432:133263
+doi: 10.1016/j.ijcard.2025.133263

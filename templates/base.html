@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>THV Scientific Repository - PubMed</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- htmx -->
+  <script src="https://unpkg.com/htmx.org@1.9.6"></script>
+  <!-- Font Awesome Free -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-pc6XbXG8avY7bQaVZxY+G8HOvIJ9+1W7qT1xO3Eew10a6SBP5v4gWlKJ9f5OfxRI6s+vPhDJTpUKU4PRu1iUNA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+    rel="stylesheet"
+  />
+
+  <style>
+    :root {
+      --ed-gray: #898D8D;
+      --ed-white: #FFFFFF;
+      --ed-black: #000000;
+      --ed-red:   #E02020;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--ed-gray);
+      color: var(--ed-black);
+      margin: 0;
+    }
+
+    nav {
+      background-color: var(--ed-gray);
+    }
+
+    .tag-chip {
+      display: inline-block;
+      padding: .25rem .5rem;
+      margin: .125rem;
+      border-radius: 9999px;
+      font-size: .875rem;
+      background-color: #E5E7EB;
+      color: #374151;
+      cursor: pointer;
+      transition: background-color .2s;
+    }
+    .tag-chip:hover {
+      background-color: #D1D5DB;
+    }
+    .tag-chip.approved {
+      background-color: #16A34A;
+      color: #FFF;
+    }
+  </style>
+</head>
+<body class="min-h-screen">
+
+  <!-- Navbar -->
+  <nav class="flex items-center justify-between px-6 py-3 shadow">
+    <div class="flex items-center space-x-4">
+      <img
+        src="{{ url_for('static', filename='edwards-OG.png') }}"
+        alt="Edwards"
+        class="h-8 w-auto"
+      >
+      <h1 class="text-xl font-semibold text-black">
+        THV Scientific Repository - PubMed
+      </h1>
+      <a href="/" class="text-red-900 hover:underline">Home</a>
+      <a href="{{ url_for('analytics_bp.analytics') }}" class="px-4 py-2 text-red-900 hover:underline">Analytics</a>
+    </div>
+  </nav>
+
+  <!-- Main -->
+  <main class="max-w-6xl mx-auto px-4 py-6">
+    {% block content %}{% endblock %}
+  </main>
+
+</body>
+</html>
