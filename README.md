@@ -1,6 +1,6 @@
 # PubMed Article Scraper & Analyzer
 
-This project automates the process of searching PubMed articles using keywords, downloading open-access PDFs, extracting text, storing data in MongoDB, and presenting results in a web UI.
+This project automates the process of searching PubMed articles using keywords, downloading open-access PDFs, extracting text, storing data in MongoDB, and presenting results in a web UI. For more information please have a look at the "Scientific_Article_Scraper_Documentation_Complete" document.
 
 ---
 
