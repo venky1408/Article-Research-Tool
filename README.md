@@ -71,3 +71,10 @@ Capstone/
 ---
 
 For any issues, make sure your MongoDB is active and the Python version matches.
+
+User Interface : - 
+![image](https://github.com/user-attachments/assets/cf03a9cd-7054-4b31-b60b-3aa440bc4780)
+![image](https://github.com/user-attachments/assets/8d0eccb8-72b8-48e8-bfda-445806e131ae)
+
+
+
